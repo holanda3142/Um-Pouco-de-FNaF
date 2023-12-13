@@ -1,0 +1,234 @@
+body {
+    background-image: url(fnaf3-room.webp);
+    backdrop-filter: blur(3px);
+}
+
+p {
+    color: rgb(160, 255, 8);
+    font-family: 'Nova Square', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Nova Square', sans-serif;
+    color: #a0ff08;;
+    font-size: 1.875rem;
+}
+
+h2 {
+    color: rgb(160, 255, 8);;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 1.875rem;
+}
+
+.cor {
+    border-color: #a0ff08;
+}
+
+.cabeçario {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.red {
+    color: purple;
+}
+
+
+.card1 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 15px;
+    background-image: url(FUNDO.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card1 h2 {
+    text-align: center;
+    color: purple;
+}
+
+.purple {
+    color:purple;
+}
+
+.card1 img {
+    max-width: 100%;
+    height: auto;
+} 
+
+.card2 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 15px;
+    background-image: url(FUNDO.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card2 h2 {
+    text-align: center;
+}
+
+.card2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card3 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 15px;
+    background-image: url(FUNDO.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card3 h2 {
+    text-align: center;
+}
+
+.card3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card4 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 15px;
+    background-image: url(FUNDO.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card4 h2 {
+    text-align: center;
+}
+
+.card4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card5 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 15px;
+    background-image: url(FUNDO.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card5 h2 {
+    text-align: center;
+}
+
+.card5 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card6 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 15px;
+    background-image: url(FUNDO.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card6 h2 {
+    text-align: center;
+}
+
+.card6 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card7 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 15px;
+    background-image: url(FUNDO.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card7 h2 {
+    text-align: center;
+}
+
+.card7 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.personagens {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.helpy {
+    display: none;
+}
+
+.titulo-responsivo {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .helpy {
+        display: flex;
+        justify-content: flex-start;
+        width: 30px;
+        height: 65px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .titulo-principal {
+        display: none;
+    }
+
+    .titulo-responsivo {
+        display: block;
+        margin-top: 15px;
+    }
+
+    p {
+    font-size: 12px;
+    }
+
+    .helpy {
+        display: flex;
+        justify-content: flex-start;
+        width: 20px;
+        height: 45px;
+    }
+}

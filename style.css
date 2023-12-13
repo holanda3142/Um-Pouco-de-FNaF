@@ -1,0 +1,129 @@
+body{
+    background-image: url(Steam_PageBackground_FNAFVR.png);
+    backdrop-filter: blur(3px);
+    background-size: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 1.875rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    color: white;
+    font-size: 1.5625rem;
+    font-family: 'Play', sans-serif;
+    /* border: solid 2px black;
+    border-radius: 15px;
+    border-color: aliceblue; */
+}
+
+.aviso {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.cabeçario {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.infoScott {
+    margin-top: 20px;
+}
+
+.moldura {
+    width: 100%;
+    text-align: center;
+}
+
+.moldura img {
+    width: 300px;
+    height: 300px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+form {
+    background-image:url(back.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    margin-top: 16px;
+}
+
+form img {
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="subimit"] {
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menuOpçoes {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    list-style: none;
+}
+
+#menuIcon {
+    display: none;
+}
+
+/* #menuButton {
+    display: none;
+} */
+
+.responsivo {
+    display: none;
+}
+
+

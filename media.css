@@ -1,0 +1,33 @@
+@media (max-width: 50rem) {
+    nav {
+        display: none;
+        position: absolute;
+        padding: 10px;
+        list-style: none;
+    }
+
+    #menuIcon {
+        display: inline-block;
+    }
+
+    .responsivo {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .principal {
+        display: none;
+    }
+
+    p {
+        font-size: .875rem;
+    }
+
+
+    .helpy {
+        display: flex;
+        justify-content: flex-start;
+        width: 30px;
+        height: 65px;
+    }
+}
